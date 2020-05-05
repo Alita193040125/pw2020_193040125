@@ -1,0 +1,97 @@
+
+
+body{
+    font-family: cursive;
+    cursor: pointer;
+
+}
+.background{
+background-image: url('../assets/img/bac.jpg');
+background-size: cover;
+ }
+ .background_reg{
+    background-image: url('../assets/img/b.jpeg');
+background-size: cover;
+ }
+h3{
+    text-align: center;
+
+    font-family: ubuntu;
+}
+.back{
+text-decoration: none;
+color: black;
+}
+.box:hover{
+   
+    background: skyblue;
+}
+ 
+.tulisan_login{
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+}
+ 
+.kotak_login{
+    width: 350px;
+        box-shadow: -10px -10px 50px white;
+    border-radius: 25px;
+    border :1px solid grey;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+ 
+label{
+    font-size: 11pt;
+}
+ 
+.form_login{
+    /*membuat lebar form penuh*/
+    box-sizing : border-box; 
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+ 
+.tombol_login{
+    background: orange;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+ .tombol_registrasi{
+    background: green;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+ }
+.remember{
+float: left;
+color: red;
+text-shadow: 1px 1px 1px black;
+
+}
+img{
+width : 200px;
+            height : 200px;
+            border: 2px solid skyblue;
+            box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.4);
+            
+            
+        }
+        table{
+            margin:auto;
+        }
+        tr{
+            font-size: 20px;
+                text-align: center;
+        }
