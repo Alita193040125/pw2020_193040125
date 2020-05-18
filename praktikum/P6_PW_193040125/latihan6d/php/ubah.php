@@ -47,7 +47,7 @@ if (isset($_POST['ubah'])) {
 		</li>
 <li>
 			<label for ="merk">merk</label><br>
-			<input type="text" name="merk" id="merk" required value="<?= $aprl['merk']; ?>">><br><br>
+			<input type="text" name="merk" id="merk" required value="<?= $aprl['merk']; ?>"><br><br>
 		</li>
 
 		<li>
